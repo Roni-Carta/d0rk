@@ -1,0 +1,94 @@
+{
+	"duckduckgo" : {
+		"query" : "http://duckduckgo.com/?ia=web&q=",
+		"param" : "&nothing=",
+		"k" : 0,
+		"filters" : {
+			"0":"duckduckgo.com/?ia=web&q="
+		}
+	},
+	"bing" : { 
+		"query" : "http://bing.com/search?q=",
+		"param" :"&first=",
+		"k" : 6,
+		"filters" : {
+			"0":"go.microsoft.com",
+			"1":"bing.com/search?q="
+		}
+	},
+	"yahoo" : {
+		"query" : "http://search.yahoo.com/search?p=",
+		"param" :"&b=",
+		"k" : 10,
+		"filters" : {
+			"0":"www.tumblr.com"
+		}
+	},
+	"google": {
+		"query" : "http://www.google.com/search?q=",
+		"param" : "&start=",
+		"k" : 10,
+		"filters" : {
+			"0":"google.com/search?q=",
+			"1":"google.com/search?gbv=",
+			"3":"google.com/preferences?hl=",
+			"4":"google.com/ServiceLogin?continue="
+		}
+	},
+	"qwant" : {
+		"query" : "http://www.qwant.com/?t=web&q=",
+		"param" : "&nothing=",
+		"k" : 0,
+		"filters" : {
+			"0":"qwant.com",
+			"1":"qwant-lite/?src=search"
+		}
+	},
+	"ecosia" : {
+		"query" : "http://www.ecosia.org/search?q=",
+		"param" : "&p=",
+		"k" : 1,
+		"filters" : {
+			"0":"ecosia.org",
+			"1":"www.youtube.com/user/EcosiaORG",
+			"2":"ecosia.zendesk.com/hc",
+			"3":"/ecosia"
+		}
+	},
+	"yandex" : {
+		"query" : "http://yandex.com/search/?text=",
+		"param" :  "&p=",
+		"k" : 1,
+		"filters" : {
+			"0":"yandex.com"
+		}
+	},
+	"gist" : {
+		"query" : "https://gist.github.com/search?q=",
+		"param" :  "&p=",
+		"k" : 1,
+		"filters" : {
+			"0":"https://github.com/site/terms",
+			"1":"https://github.com/contact",
+			"2":"https://github.com/security",
+			"3":"https://github.com/about",
+			"4":"https://github.blog",
+			"5":"https://developer.github.com",
+			"6":"https://github.com/pricing",
+			"7":"https://github.com/site/privacy",
+			"8":"githubstatus.com",
+			"9":"https://training.github.com",
+			"10":"https://help.github.com",
+			"11":"https://gist.github.com/search?q=",
+			"12":"https://github.com"
+		}
+	},
+	"youtube" : {
+		"query" : "https://www.youtube.com/results?search_query=",
+		"param" : "&nothing=",
+		"k" : 1,
+		"filters" : {
+			"0":"thereisnothingtofilterherehaha"
+		}
+	}
+}
