@@ -1,6 +1,6 @@
 # d0rk
 
-d0rk is a Python tool used to scrap search engines results.
+d0rk is a Python tool used to scrape search engines results.
 
 ## Installation
 
